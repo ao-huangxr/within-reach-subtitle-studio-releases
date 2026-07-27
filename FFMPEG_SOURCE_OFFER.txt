@@ -1,0 +1,10 @@
+Corresponding source for the bundled FFmpeg runtime
+
+Version: FFmpeg 8.1.2
+Upstream: https://ffmpeg.org/releases/ffmpeg-8.1.2.tar.xz
+SHA-256: 464beb5e7bf0c311e68b45ae2f04e9cc2af88851abb4082231742a74d97b524c
+Source modifications: none
+License: LGPL v2.1 or later
+
+The identical source archive is published with each binary release as:
+ffmpeg-8.1.2-within-reach-source.tar.xz
