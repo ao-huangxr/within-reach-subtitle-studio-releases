@@ -1,0 +1,63 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Within Reach Subtitle Studio</title>
+        <item>
+            <title>0.1.0</title>
+            <pubDate>Mon, 27 Jul 2026 21:59:07 +0800</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Within Reach Subtitle Studio 0.1.0 Beta 2
+
+## 主要修复
+
+- 修复首次启动或新工程未绑定参考视频时，字幕 Preview 无法完成的问题；
+- 字幕 Preview 不再依赖参考视频；
+- 修复异步 Font/Style 上下文初始化与首次 Preview 之间的竞态；
+- 移除参考视频后不再恢复旧视频路径。
+
+## 新增能力
+
+- 集成 Sparkle 自动更新；
+- 支持应用内手动检查更新；
+- 使用 HTTPS 公开 Feed；
+- 使用 Sparkle EdDSA 签名验证更新包。
+
+## Beta 1 用户说明
+
+Beta 1 没有嵌入 Sparkle Feed。
+
+已经安装 Beta 1 的用户需要手动下载安装 Beta 2 一次。
+
+从 Beta 2 开始，未来版本可以通过应用内“检查更新”升级。
+
+## 系统要求
+
+- Apple Silicon Mac；
+- macOS 26.0 或更高；
+- 不需要用户安装 Python、Homebrew 或 FFmpeg。
+
+## 安装
+
+打开 DMG，将应用拖入 Applications。
+
+## 安全
+
+- Developer ID Signed；
+- Hardened Runtime；
+- Secure Timestamp；
+- Apple Notarized；
+- Stapled Ticket；
+- Gatekeeper Accepted；
+- Sparkle EdDSA Signed Update。
+
+本版本基于 Accepted T13 Source Baseline
+`29551f30ee8041f6ef89311f505d18c636fcc8d0`，并包含已验收的 Preview
+Bug Fix Commit `5090ff8f5bcba06da78a6b0d0c9eb7de152c01e5`。
+]]></description>
+            <enclosure url="https://github.com/ao-huangxr/within-reach-subtitle-studio-releases/releases/download/v0.1.0-beta.2/Within-Reach-Subtitle-Studio-0.1.0-beta.2-macOS-arm64.dmg" length="54048537" type="application/octet-stream" sparkle:edSignature="hPWSp7vWwrGwo1bAdDildpsdpQa/WQNTCG5f2l9FXCz8uMxgqxckQcMQZI6q+1slDkXLdnkzbONO+no8M3zACw=="/>
+        </item>
+    </channel>
+</rss>
