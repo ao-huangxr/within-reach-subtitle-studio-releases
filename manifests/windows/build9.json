@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "product_name": "Within Reach Subtitle Studio",
+  "product_version": "0.1.0",
+  "short_version": "0.1.0 Beta 4",
+  "build_number": 9,
+  "channel": "beta",
+  "edition": "Windows Beta",
+  "source_sha": "4c045c24699e4c7ffa5339d5b63e4c62d37eafe8",
+  "tag": "windows-v0.1.0-beta.4-build9",
+  "release_name": "Within Reach Subtitle Studio 0.1.0 Beta 4 Build 9 Windows",
+  "prerelease": true,
+  "feed": "appcast-windows.xml",
+  "asset": {
+    "name": "Within-Reach-Subtitle-Studio-0.1.0-beta.4-build9-windows-x64-setup.exe",
+    "length": 138848215,
+    "sha256": "c7fbd89b616c1b4e83cad569608949fcace1181d7f8885c86a2c227300168bbb",
+    "eddsa_signature": "Ul9BE/JZEEInKWJxpWjN3/PB/qeCcnbBeFNCC8tNJ9ncbgSXQECamSJ2MZuN4xG+WQtTPvV1YqAcYf4sq504DA=="
+  },
+  "eddsa_public_key": "Gwquejb53I1neJAAyTrE2YmKu/M2kdga/1viks/2FRU=",
+  "public_key_sha256": "55:92:ae:e1:0f:11:0b:b4:13:66:b6:4c:d1:27:93:37:f3:48:03:3d:26:f1:28:0d:06:5b:dd:94:f4:8a:66:11",
+  "publication_status": "pending_explicit_authorization"
+}
