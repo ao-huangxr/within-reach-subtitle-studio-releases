@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "product_version": "0.1.0",
+  "build_number": 12,
+  "release_label": "0.1.0 Beta 5 Update Test",
+  "source_commit": "e4987f0bec91182d751284773045d9b079d1f6bc",
+  "temporary_version_override_committed": false,
+  "tag": "windows-v0.1.0-beta.5-build12-test",
+  "prerelease": true,
+  "channel": "staging",
+  "asset": {
+    "name": "Within-Reach-Subtitle-Studio-0.1.0-beta.5-build12-update-test-windows-x64-setup.exe",
+    "length": 139847866,
+    "sha256": "e0fa5de4914e453456734c2ff4c85bcb227662ecccb94bc336741851cc309b13",
+    "eddsa_signature": "6c9z7KevdvxTzgCYb2HJb1enOgqtswjcyCslB2+qKyYIpFv+eJrB7v6ydfUFhB2t20als8EI44dH0pY3i1byAw=="
+  },
+  "ptx": {
+    "architecture": "compute_75",
+    "sha256": "16ab683891329d6bbb811b9105fea263af50f673ca2c81aea9663a46d6ec3409"
+  },
+  "appcast": "appcast-windows-staging.xml"
+}
