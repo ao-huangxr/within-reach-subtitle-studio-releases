@@ -6,20 +6,20 @@
     <description>Signed Windows x64 installer updates.</description>
     <language>en</language>
     <item>
-      <title>Within Reach Subtitle Studio Build 10 Windows Update Test</title>
-      <sparkle:version>10</sparkle:version>
-      <sparkle:shortVersionString>0.1.0 Beta 4 Update Test</sparkle:shortVersionString>
-      <sparkle:releaseNotesLink>https://raw.githubusercontent.com/ao-huangxr/within-reach-subtitle-studio-releases/main/release-notes/windows/0.1.0-beta.4-build10-update-test.md</sparkle:releaseNotesLink>
+      <title>Within Reach Subtitle Studio 0.1.0 Beta 5</title>
+      <sparkle:version>11</sparkle:version>
+      <sparkle:shortVersionString>0.1.0 Beta 5</sparkle:shortVersionString>
+      <sparkle:releaseNotesLink>https://raw.githubusercontent.com/ao-huangxr/within-reach-subtitle-studio-releases/main/release-notes/windows/0.1.0-beta.5-build11.md</sparkle:releaseNotesLink>
       <sparkle:minimumSystemVersion>10.0</sparkle:minimumSystemVersion>
-      <pubDate>Fri, 31 Jul 2026 17:15:01 GMT</pubDate>
+      <pubDate>Sun, 02 Aug 2026 02:08:15 GMT</pubDate>
       <enclosure
-          url="https://github.com/ao-huangxr/within-reach-subtitle-studio-releases/releases/download/windows-v0.1.0-beta.4-build10-test/Within-Reach-Subtitle-Studio-0.1.0-beta.4-build10-update-test-windows-x64-setup.exe"
-          length="138844965"
+          url="https://github.com/ao-huangxr/within-reach-subtitle-studio-releases/releases/download/windows-v0.1.0-beta.5-build11/Within-Reach-Subtitle-Studio-0.1.0-beta.5-build11-windows-x64-setup.exe"
+          length="139860230"
           type="application/octet-stream"
-          sparkle:version="10"
-          sparkle:shortVersionString="0.1.0 Beta 4 Update Test"
+          sparkle:version="11"
+          sparkle:shortVersionString="0.1.0 Beta 5"
           sparkle:os="windows-x64"
-          sparkle:edSignature="PtLTPeGdBbGOGq9j/KIq++k5USaNe2yR0wYQMVJjI0O45cLiBAdWX6iNLi++aZzZnzDZz6obdVAFaPH7q4+HDg=="
+          sparkle:edSignature="1gX1Cc9xqdUVO6ylbEoN9v2uB7CP2tEKifC25eZk1sUQACJFVOQh74f6//wUDHV0C5oa9jgLQnoSm0LWS7KpCQ=="
           sparkle:installerArguments="/SILENT /SP- /NOICONS" />
     </item>
   </channel>
