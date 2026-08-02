@@ -4,6 +4,81 @@
         <title>Within Reach Subtitle Studio</title>
         <item>
             <title>0.1.0</title>
+            <pubDate>Sun, 02 Aug 2026 10:36:05 +0800</pubDate>
+            <sparkle:fullReleaseNotesLink>https://raw.githubusercontent.com/ao-huangxr/within-reach-subtitle-studio-releases/main/release-notes/0.1.0-beta.4.md</sparkle:fullReleaseNotesLink>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Within Reach Subtitle Studio 0.1.0 Beta 4
+
+## qtrle 快速导出
+
+- Automatic（Recommended）现在使用 packet-sparse 视觉状态编码；
+- 只在字幕画面实际变化时编码新的 qtrle/ARGB Sample；
+- 典型长时间线可以显著降低导出时间、峰值内存和文件体积；
+- 支持 Full Timeline、Current Segment、Selected Segments 和 All Segments；
+- Sparse 在编码开始前无法通过能力探测时，会明确说明原因并安全回退到
+  Compatibility；
+- Sparse 编码开始后如果失败，会 Fail Closed 并保留 Recovery，不会静默重新运行
+  Compatibility。
+
+## Compatibility Mode
+
+- Compatibility Mode 保留传统 `true_cfr_expanded_qtrle_v1`；
+- 每个工程帧都有一个正式 qtrle Sample；
+- 对素材帧率显示、完整尾端帧数或逐帧结构有严格要求时，请选择 Compatibility
+  Mode。
+
+## 保留的生产能力
+
+- 无参考画面的字幕 Preview；
+- Segment 本地零时间映射和跨边界 Cue 裁切；
+- Exact Patch 与 `requested_cue_ids` 范围隔离；
+- ProRes 4444 Alpha；
+- DaVinci Resolve 完整工程时间线；
+- Production 缓存、取消和 Recovery；
+- Sparkle 应用内更新。
+
+## 已接受的已知限制
+
+状态：`accepted_known_limitation`
+
+- Automatic 生成的是 packet-sparse qtrle MOV，不是严格逐帧 CFR；
+- DaVinci Resolve 可能把 Sparse 素材显示为 1fps、2fps 或其他非项目帧率；
+- 在受控取证中，部分 Sparse 素材在 Resolve 中创建的 TimelineItem 可能比完整
+  Export Range 略短；
+- 用户已在约 12 分钟、204 Cue 的正式《钱昆》工程副本中验证字幕对应、播放、
+  拖动、逐帧、Alpha、保存重开，以及叠加背景后的 H.265 重新渲染；在该实际流程
+  中未观察到人眼可感知差异；
+- 依赖字幕 MOV 与主视频严格等长、按素材尾端自动对齐，或要求最后几帧逐帧一致的
+  工作流，应使用 Compatibility Mode。
+
+## Segment 与 DaVinci 边界
+
+- Segment MOV 继续按所选 Cue 范围裁切并映射到本地零时间；
+- 本版本不修改 Segment 时间范围数据模型；
+- DaVinci Resolve 自动时间线创建仍以完整工程为单位；
+- DaVinci Segment Timeline 尚未支持。
+
+## 系统与安全
+
+- Apple Silicon Mac；
+- macOS 26.0 或更高；
+- Developer ID Signed；
+- Hardened Runtime；
+- Secure Timestamp；
+- Apple Notarized；
+- Stapled Ticket；
+- Gatekeeper Accepted；
+- Sparkle EdDSA Signed Update。
+
+本版本仍是 Beta。建议使用工程副本，并保留原始素材与工程备份。
+]]></description>
+            <enclosure url="https://github.com/ao-huangxr/within-reach-subtitle-studio-releases/releases/download/v0.1.0-beta.4/Within-Reach-Subtitle-Studio-0.1.0-beta.4-macOS-arm64.dmg" length="54135688" type="application/octet-stream" sparkle:edSignature="GOvFexr5/UYYlLA/THALolOxEEQ7CTro2kvJcqFq1expS0MwmaZx0tbdK3P04dIGzQYTMeOEGygfVcc5Elc8BA=="/>
+        </item>
+        <item>
+            <title>0.1.0</title>
             <pubDate>Tue, 28 Jul 2026 13:24:52 +0800</pubDate>
             <sparkle:fullReleaseNotesLink>https://raw.githubusercontent.com/ao-huangxr/within-reach-subtitle-studio-releases/main/release-notes/0.1.0-beta.3.md</sparkle:fullReleaseNotesLink>
             <sparkle:version>6</sparkle:version>

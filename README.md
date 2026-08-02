@@ -10,14 +10,17 @@ Official macOS and Windows downloads, Sparkle feed, and WinSparkle feeds.
 - SHA256 校验；
 - Build Manifest。
 
-当前公开版本为 **Within Reach Subtitle Studio 0.1.0 Beta 3 / Build 6**。
+当前公开版本为 **Within Reach Subtitle Studio 0.1.0 Beta 4 / Build 7**。
 本软件仍处于 Beta 阶段，仅支持 Apple Silicon，系统要求为 macOS 26.0
 或更高。发布的应用经过 Developer ID 签名和 Apple Notarization；这不表示
 软件已成为稳定正式版。
 
-Beta 3 支持完整时间线、当前 Segment、选中的多个 Segment和全部 Segment
-透明字幕 MOV 导出。DaVinci Resolve 自动时间线创建当前仍以完整工程为单位；
-Segment 时间线自动创建计划在后续版本提供。
+Beta 4 默认使用 packet-sparse qtrle 快速导出，支持完整时间线、当前
+Segment、选中的多个 Segment 和全部 Segment；Compatibility Mode 继续提供传统
+True-CFR qtrle。DaVinci Resolve 可能把 Sparse 素材显示为非项目帧率，或对部分
+素材创建略短的 TimelineItem；严格逐帧和尾端长度工作流请使用 Compatibility。
+DaVinci Resolve 自动时间线创建当前仍以完整工程为单位，Segment 时间线自动创建
+尚未支持。
 
 ## Windows Beta
 
