@@ -6,20 +6,20 @@
     <description>Signed Windows x64 installer updates.</description>
     <language>en</language>
     <item>
-      <title>Within Reach Subtitle Studio 0.1.0 Beta 5</title>
-      <sparkle:version>11</sparkle:version>
+      <title>Within Reach Subtitle Studio 0.1.0 Beta 5 Build 12 - Windows</title>
+      <sparkle:version>12</sparkle:version>
       <sparkle:shortVersionString>0.1.0 Beta 5</sparkle:shortVersionString>
-      <sparkle:releaseNotesLink>https://raw.githubusercontent.com/ao-huangxr/within-reach-subtitle-studio-releases/main/release-notes/windows/0.1.0-beta.5-build11.md</sparkle:releaseNotesLink>
+      <sparkle:releaseNotesLink>https://raw.githubusercontent.com/ao-huangxr/within-reach-subtitle-studio-releases/main/release-notes/windows/0.1.0-beta.5-build12.md</sparkle:releaseNotesLink>
       <sparkle:minimumSystemVersion>10.0</sparkle:minimumSystemVersion>
-      <pubDate>Sun, 02 Aug 2026 02:08:15 GMT</pubDate>
+      <pubDate>Mon, 03 Aug 2026 06:53:22 GMT</pubDate>
       <enclosure
-          url="https://github.com/ao-huangxr/within-reach-subtitle-studio-releases/releases/download/windows-v0.1.0-beta.5-build11/Within-Reach-Subtitle-Studio-0.1.0-beta.5-build11-windows-x64-setup.exe"
-          length="139860230"
+          url="https://github.com/ao-huangxr/within-reach-subtitle-studio-releases/releases/download/windows-v0.1.0-beta.5-build12/Within-Reach-Subtitle-Studio-0.1.0-beta.5-build12-windows-x64-setup.exe"
+          length="139839299"
           type="application/octet-stream"
-          sparkle:version="11"
+          sparkle:version="12"
           sparkle:shortVersionString="0.1.0 Beta 5"
           sparkle:os="windows-x64"
-          sparkle:edSignature="1gX1Cc9xqdUVO6ylbEoN9v2uB7CP2tEKifC25eZk1sUQACJFVOQh74f6//wUDHV0C5oa9jgLQnoSm0LWS7KpCQ=="
+          sparkle:edSignature="oApRXjNM/+lrPlMwBocLcszTfeo44g1lDV6NRerMG7Ujm/LRqO+q/b705eCMcWbwVrOP1T9D5pC2cn9/iydFDg=="
           sparkle:installerArguments="/SILENT /SP- /NOICONS" />
     </item>
   </channel>
