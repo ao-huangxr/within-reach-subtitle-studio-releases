@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "product_version": "0.1.0",
+  "release_label": "0.1.0 Beta 5",
+  "build_number": 12,
+  "channel": "production",
+  "tag": "windows-v0.1.0-beta.5-build12",
+  "source_commit": "1f80ccfa8595db2623082590a534a94b5058a15c",
+  "prerelease": true,
+  "asset": {
+    "name": "Within-Reach-Subtitle-Studio-0.1.0-beta.5-build12-windows-x64-setup.exe",
+    "length": 139839299,
+    "sha256": "284e014086bddae67037affd3ea79aeff31679dbde7e6ff4ac47e1b8856cc668",
+    "eddsa_signature": "oApRXjNM/+lrPlMwBocLcszTfeo44g1lDV6NRerMG7Ujm/LRqO+q/b705eCMcWbwVrOP1T9D5pC2cn9/iydFDg=="
+  },
+  "ptx": {
+    "architecture": "compute_75",
+    "sha256": "16ab683891329d6bbb811b9105fea263af50f673ca2c81aea9663a46d6ec3409"
+  },
+  "release_notes": "0.1.0-beta.5-build12.md",
+  "appcast": "appcast-windows.xml",
+  "staging_appcast": "appcast-windows-staging.xml"
+}
